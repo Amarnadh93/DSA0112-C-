@@ -1,10 +1,8 @@
 #include <iostream>
 using namespace std;
-
 class FloydsTriangle {
 private:
     int rows;
-
 public:
     FloydsTriangle(int r) {
         rows = r;
@@ -22,7 +20,6 @@ public:
         cout << "Destructor called, Floyd's Triangle complete!" << endl;
     }
 };
-
 int main() {
     int rows;
     cout << "Enter the number of rows for Floyd's Triangle: ";
